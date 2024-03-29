@@ -9,9 +9,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FamilyTree.Blazor", "Family
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FamilyTree.Libraries", "FamilyTree.Libraries", "{2E0BFB24-892C-450B-827F-986C276ED071}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyTree.WebAPI", "FamilyTree.WebAPI\FamilyTree.WebAPI.csproj", "{9A9B831C-081C-492C-902E-E4801A26EA50}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A9B831C-081C-492C-902E-E4801A26EA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9B831C-081C-492C-902E-E4801A26EA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9B831C-081C-492C-902E-E4801A26EA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9B831C-081C-492C-902E-E4801A26EA50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A9B831C-081C-492C-902E-E4801A26EA50} = {B861621E-8F86-42BA-A369-4DBE68EF0983}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7902EF67-274D-4FE1-8814-8CDE8E789CA6}

@@ -1,0 +1,6 @@
+@FamilyTree.WebAPI_HostAddress = http://localhost:5125
+
+GET {{FamilyTree.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
