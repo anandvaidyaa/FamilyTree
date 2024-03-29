@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FamilyTree.WebAPI", "FamilyTree.WebAPI", "{B861621E-8F86-42BA-A369-4DBE68EF0983}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FamilyTree.Blazor", "FamilyTree.Blazor", "{5C403A2E-1046-4016-BB1E-7E69B14421AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FamilyTree.Libraries", "FamilyTree.Libraries", "{2E0BFB24-892C-450B-827F-986C276ED071}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
